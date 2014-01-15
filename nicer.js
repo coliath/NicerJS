@@ -3,7 +3,7 @@
 // nice to have JS modifications
 
 
-this.p = function ( anything, label, wrapper ) {
+var p = function ( anything, label, wrapper ) {
 	var hasWrapper = typeof wrapper != "undefined" && (wrapper).isString();
 	if ( label && (label).isString() ) {
 		label += ": ";
